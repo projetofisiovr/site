@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>Projeto</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+<style>
+body,h1,h2,h3,h4,h5 {font-family: "Poppins", sans-serif}
+body {font-size:16px;}
+.w3-half img{margin-bottom:-6px;margin-top:16px;opacity:0.8;cursor:pointer}
+.w3-half img:hover{opacity:1}
+</style>
+<body>
+
+<!-- Sidebar/menu -->
+<nav class="w3-sidebar w3-blue w3-collapse w3-top w3-large w3-padding" style="z-index:3;width:300px;font-weight:bold;" id="mySidebar"><br>
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-button w3-hide-large w3-display-topleft" style="width:100%;font-size:22px">Close Menu</a>
+  <div class="w3-container">
+    <h3 class="w3-padding-64" style="font-size: 40px"><b>Realidade Virtual<h3><br> em<br><p style="font-size: 30px">Tratamentos Fisioterápicos</p></b></h3>
+  </div>
+  <div class="w3-bar-block">
+    <a href="#" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Home</a> 
+    <a href="#showcase" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">O que é realidade virtual</a> 
+    <a href="#services" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">O que é realidade aumentada</a> 
+    <a href="#designers" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Aplicações na saúde</a> 
+    <a href="#packages" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Vídeos</a> 
+    <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Demonstração</a>
+  </div>
+</nav>
+
+<!-- Top menu on small screens -->
+<header class="w3-container w3-top w3-hide-large w3-red w3-xlarge w3-padding">
+  <a href="javascript:void(0)" class="w3-button w3-red w3-margin-right" onclick="w3_open()">&#9776;</a>
+  <span>Company Name</span>
+</header>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:340px;margin-right:40px">
+
+  <!-- Header -->
+  <div class="w3-container" style="margin-top:80px">
+    <h1 class="w3-jumbo" style=" color: #120a8f"><b>Aplicação de técnicas de Realidade Virtual em Tratamentos Fisioterápicos</b></h1>
+    <hr style="width:50px;border:5px solid purple" class="w3-round">
+    <h4 class="w3-container" style="" id="home">
+      <p>Este projeto tem como principal objetivo capacitar jovens profissionais da área de fisioterapia e afins a entender
+      a potencialidade do uso de técnicas de realidade virtual em suas práticas profissionais com o intuito de
+      modernizar essas práticas e viabilizar novas formas de realizá-las.<br>
+      O constante avanço de técnicas computacionais e sua potencial aplicação em diversas áreas, em especial
+      a saúde, é a principal justificativa da execução deste projeto. Capacitar profissionais fornecendo uma visão mais
+      ampla do uso de técnicas inovadoras em suas práticas diárias diminui a possibilidade de obsolescência destes
+      profissionais e o preparam de forma mais efetiva para as inovações tecnológicas características desta nova era.<br>
+      A metodologia a ser utilizada consiste na pesquisa bibliográfica de técnicas de RV aplicadas a
+      tratamentos fisioterápicos e a posterior organização sistemática desta pesquisa com o intuito de criar material
+      didático de fácil acesso aos profissionais da área. O projeto tem como meta o desenvolvimento de materiais de
+      capacitação para profissionais de saúde com a intuito de transformá-los em multiplicadores destes conteúdos.
+      O projeto possui viabilidade econômico-financeira, uma vez que todas as ferramentas necessárias ao
+      desenvolvimento do projeto são livres e gratuitas e as principais bases de pesquisa bibliográfica são de livre
+      acesso.<br>
+      O impacto social esperado com o projeto é a preparação de profissionais de saúde, independentemente
+      de sua origem, na utilização de tecnologias inovadoras com potencial de aprimorar suas práticas profissionais.
+      O projeto será implementado presencialmente em Juiz de Fora e região e virtualmente abrangendo os
+      falantes de língua portuguesa ao redor do globo.</p></h4>
+    <h1 class="w3-xxxlarge" style=" color: #120a8f" id="showcase"><b>O que é realidade virtual ?</b></h1>
+    <hr style="width:50px;border:5px solid purple" class="w3-round">
+    <h4 class="w3-container" style="">
+      <p>Aparentemente “Realidade Virtual” é um termo contraditório. Como algo que é
+      virtual poderia ser ao mesmo tempo real?<br> De fato, os ambientes virtuais são, ao
+      mesmo tempo, reais. São realidades diferentes, alternativas, criadas
+      artificialmente, mas são percebidas pelos nossos sistemas sensórios da mesma
+      forma que o mundo físico à nossa volta: podem emocionar, dar prazer, ensinar,
+      divertir e responder às nossas ações, sem que precisem existir de forma tangível
+      (tocável). Até mesmo a tangibilidade já começa a fazer parte dos ambientes
+      virtuais, tornando-os cada vez menos distinguíveis da “realidade real”.<br><br>
+      A tecnologia hoje permite o acesso a ambientes sintéticos, imersivos e de alta
+      definição, que conseguem nos transportar para realidades alternativas, a baixo
+      custo. Basta um smartphone de última geração e um visor de papelão dobrável
+      de custo irrisório para termos acesso a experiências imersivas que, há alguns
+      anos, eram acessíveis a apenas poucos privilegiados com acesso a equipamentos
+      caríssimos.<br> Mas na essência, fora a economia de escala e o aprimoramento
+      técnico (imagens com maior definição, sensores mais precisos, menos atrasos
+      etc.), não há muita diferença entre conceitos, técnicas e tecnologias atuais e
+      aqueles utilizados em gerações anteriores da realidade virtual.</p></h4>
+  </div>
+  
+  <!-- Photo grid (modal) -->
+  <!--<div class="w3-row-padding">
+    <div class="w3-half">
+      <img src="/w3images/kitchenconcrete.jpg" style="width:100%" onclick="onClick(this)" alt="Concrete meets bricks">
+      <img src="/w3images/livingroom.jpg" style="width:100%" onclick="onClick(this)" alt="Light, white and tight scandinavian design">
+      <img src="/w3images/diningroom.jpg" style="width:100%" onclick="onClick(this)" alt="White walls with designer chairs">
+    </div>
+
+    <div class="w3-half">
+      <img src="/w3images/atrium.jpg" style="width:100%" onclick="onClick(this)" alt="Windows for the atrium">
+      <img src="/w3images/bedroom.jpg" style="width:100%" onclick="onClick(this)" alt="Bedroom and office in one space">
+      <img src="/w3images/livingroom2.jpg" style="width:100%" onclick="onClick(this)" alt="Scandinavian design">
+    </div>
+  </div>
+
+  <-- Modal for full size images on click-->
+  <!--<div id="modal01" class="w3-modal w3-black" style="padding-top:0" onclick="this.style.display='none'">
+    <span class="w3-button w3-black w3-xxlarge w3-display-topright">&times;</span>
+    <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+      <img id="img01" class="w3-image">
+      <p id="caption"></p>
+    </div>
+  </div> -->
+
+  <!-- Services -->
+  <div class="w3-container" id="services" style="margin-top:75px">
+    <h1 class="w3-xxxlarge" style=" color: #120a8f"><b>O que é realidade aumentada ?</b></h1>
+    <hr style="width:50px;border:5px solid purple" class="w3-round">
+    <h4 class="w3-container" style="" id="oqera">
+      <p>A Realidade Aumentada (RA) já foi definida de várias maneiras:<br><br>
+      A. é o enriquecimento do ambiente real com objetos virtuais, usando algum
+      dispositivo tecnológico, funcionando em tempo real (Augment,2017);<br>
+      B. é uma melhoria do mundo real com textos, imagens e objetos virtuais,
+      gerados por computador (Insley 2003 apud Kirner e Tori, 2006);<br>
+      C. é a mistura de mundos reais e virtuais em algum ponto do espectro que
+      conecta ambientes completamente reais a ambientes completamente virtuais
+      (Milgram 1994);<br>
+      D. é um sistema que suplementa o mundo real com objetos virtuais gerados
+      por computador, parecendo coexistir no mesmo espaço e apresentando as
+      seguintes propriedades (Azuma et al., 2001):
+      combina objetos reais e virtuais no ambiente real;
+      executa interativamente em tempo real;
+      alinha objetos reais e virtuais entre si;
+      aplica-se a todos os sentidos, incluindo audição, tato e força e
+      cheiro.<br><br>
+      A última acima, é a que apresenta o maior detalhamento, se remetendo aos
+      componentes do sistema bem como às suas funcionalidades e portanto, é a
+      definição que norteará a discussão neste livro.<br>
+      Comparando RA e RV, já foi dito (Billinghurst et al. 2015, pag. 79) que o
+      principal objetivo da RV é usar a tecnologia para substituir a realidade ao passo
+      que o principal objetivo da RA é melhorar a realidade.<br>
+      Desta forma, um ambiente em RA pode ser representado por uma mesa real e um
+      vaso virtual, como mostrado na Figura 2.3. A imaginação é o limite para fazer as
+      representações.</p></h4>
+  </div>
+  
+  <!-- Designers -->
+  <div class="w3-container" id="designers" style="margin-top:75px">
+    <h1 class="w3-xxxlarge" style=" color: #120a8f"><b>Aplicações na saúde</b></h1>
+    <hr style="width:50px;border:5px solid purple" class="w3-round">
+    <h4 class="w3-container" style="" id="ans">
+      <p>O relacionamento entre profissionais da área de saúde e desenvolvedores de
+      aplicações de Realidade Virtual (RV) e Realidade Aumentada (RA) tem
+      proporcionado avanços para ambos os campos. Embora as pesquisas já tenham
+      mostrado significativas conquistas, ainda são poucas as aplicações percebidas
+      nas rotinas clínicas, evidenciando que há diversos desafios a serem superados
+      para efetivar a transferência de tecnologia ao setor produtivo.</p>
+    <h2 class="w3-container" style=" color: #4b0082" id="oqera">Simulação Cirúrgica</h2>
+    <hr style="width:30px;border:3px solid purple" class="w3-round">
+      <p>Com um simulador cirúrgico, torna-se possível criar um currículo mínimo, de tal
+      modo que cada aprendiz é exposto a um mínimo de casos complexos e raros (até
+      o mais raro possível ou mesmo casos hipotéticos), uniformizando o aprendizado.<br>
+      A ideia é que se utilize o modelo já em uso em simuladores de vôo. Pilotos
+      aprendem e ganham experiência de vôo, inclusive em condições adversas, raras
+      ou mesmo situações construídas especificamente para um indivíduo.</p>
+    <h2 class="w3-container" style=" color: #4b0082" id="oqera">Simulador de Cirurgia de Catarata</h2>
+    <hr style="width:30px;border:3px solid purple" class="w3-round">
+      <p>O simulador de cirurgia de catarata (Toledo, 2017; Toledo, Oliveira e Haack,
+      2017) usa um dispositivo Geomagic Touch (aka Phantom Omni) para simular os
+      instrumentos usados pelo cirurgião neste tipo de procedimento. A visualização
+      será apresentada em um óculos de RV fixado em posição que faça com que o
+      mesmo se assemelhe ao microscópio usado neste tipo de cirurgia.<br> No futuro
+      espera-se substituir a caneta do Geomagic Touch por um instrumento real usado
+      na cirurgia, fixado no dispositivo tátil através de peça 3D impressa para este fim.
+      No estágio atual a própria caneta está sendo utilizada.</p>
+        <Img src='.\index\figura1.png'></Img>
+      <p>A interface do sistema permite que o usuário escolha entre selecionar o
+      instrumento a ser utilizado, (re)iniciar a simulação ou obter texto informativo
+      sobre o procedimento.</p>
+        <Img src='.\index\Figura 2.png'></Img>
+      <p>Uma vez iniciada a simulação o modelo 3D do olho é apresentado e o usuário
+      pode interagir com ele através do instrumento selecionado. Toda interação do
+      instrumento com componentes do modelo resultam em sensação tátil
+      equivalente, o que fornece maior realismo à simulação. Contamos com o apoio
+      de um cirurgião experiente no desenvolvimento e calibragem do simulador. A
+      imagem abaixo mostra detalhes do modelo ocular utilizado.</p>
+      <Img src='.\index\Figura 3.png'></Img>
+      <p>A cirurgia consiste das etapas de estabelecimento de micro incisões na córnea,
+      capsolotomia (abertura do envelope do cristalino), facoemulsificação
+      (fragmentação e sucção do cristalino) e instalação da lente artificial no envelope
+      vazio.</p>
+      <Img src='.\index\Figura 4.png'></Img>
+      <p>A implementação de complicações e casos raros se seguirá no desenvolvimento
+      do simulador.</p></h4>
+  </div>
+
+  <!-- The Team --><!--
+  <div class="w3-row-padding w3-grayscale">
+    <div class="w3-col m4 w3-margin-bottom">
+      <div class="w3-light-grey">
+        <img src="/w3images/team2.jpg" alt="John" style="width:100%">
+        <div class="w3-container">
+          <h3>John Doe</h3>
+          <p class="w3-opacity">CEO & Founder</p>
+          <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+        </div>
+      </div>
+    </div>
+    <div class="w3-col m4 w3-margin-bottom">
+      <div class="w3-light-grey">
+        <img src="/w3images/team1.jpg" alt="Jane" style="width:100%">
+        <div class="w3-container">
+          <h3>Jane Doe</h3>
+          <p class="w3-opacity">Designer</p>
+          <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+        </div>
+      </div>
+    </div>
+    <div class="w3-col m4 w3-margin-bottom">
+      <div class="w3-light-grey">
+        <img src="/w3images/team3.jpg" alt="Mike" style="width:100%">
+        <div class="w3-container">
+          <h3>Mike Ross</h3>
+          <p class="w3-opacity">Architect</p>
+          <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+        </div>
+      </div>
+    </div>
+  </div> -->
+
+  <!-- Packages / Pricing Tables -->
+  <div class="w3-container" id="packages" style="margin-top:75px">
+    <h1 class="w3-xxxlarge" style=" color: #120a8f"><b>Vídeos</b></h1>
+    <hr style="width:50px;border:5px solid purple" class="w3-round">
+        <p>Some text our prices. Lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure</p>
+  </div>
+
+  <div class="w3-row-padding">
+    <div class="w3-half w3-margin-bottom">
+      <ul class="w3-ul w3-light-grey w3-center">
+        <li class="w3-dark-grey w3-xlarge w3-padding-32">Basic</li>
+        <li class="w3-padding-16">Floorplanning</li>
+        <li class="w3-padding-16">10 hours support</li>
+        <li class="w3-padding-16">Photography</li>
+        <li class="w3-padding-16">20% furniture discount</li>
+        <li class="w3-padding-16">Good deals</li>
+        <li class="w3-padding-16">
+          <h2>$ 199</h2>
+          <span class="w3-opacity">per room</span>
+        </li>
+        <li class="w3-light-grey w3-padding-24">
+          <button class="w3-button w3-white w3-padding-large w3-hover-black">Sign Up</button>
+        </li>
+      </ul>
+    </div>
+        
+    <div class="w3-half">
+      <ul class="w3-ul w3-light-grey w3-center">
+        <li class="w3-red w3-xlarge w3-padding-32">Pro</li>
+        <li class="w3-padding-16">Floorplanning</li>
+        <li class="w3-padding-16">50 hours support</li>
+        <li class="w3-padding-16">Photography</li>
+        <li class="w3-padding-16">50% furniture discount</li>
+        <li class="w3-padding-16">GREAT deals</li>
+        <li class="w3-padding-16">
+          <h2>$ 249</h2>
+          <span class="w3-opacity">per room</span>
+        </li>
+        <li class="w3-light-grey w3-padding-24">
+          <button class="w3-button w3-red w3-padding-large w3-hover-black">Sign Up</button>
+        </li>
+      </ul>
+    </div>
+  </div>
+  
+  <!-- Contact -->
+  <div class="w3-container" id="contact" style="margin-top:75px">
+    <h1 class="w3-xxxlarge" style=" color: #120a8f"><b>Demonstração</b></h1>
+    <hr style="width:50px;border:5px solid purple" class="w3-round">
+    <p>Do you want us to style your home? Fill out the form and fill me in with the details :) We love meeting new people!</p>
+    <form action="/action_page.php" target="_blank">
+      <div class="w3-section">
+        <label>Name</label>
+        <input class="w3-input w3-border" type="text" name="Name" required>
+      </div>
+      <div class="w3-section">
+        <label>Email</label>
+        <input class="w3-input w3-border" type="text" name="Email" required>
+      </div>
+      <div class="w3-section">
+        <label>Message</label>
+        <input class="w3-input w3-border" type="text" name="Message" required>
+      </div>
+      <button type="submit" class="w3-button w3-block w3-padding-large w3-red w3-margin-bottom">Send Message</button>
+    </form>  
+  </div>
+
+<!-- End page content -->
+</div>
+
+<!-- W3.CSS Container -->
+<div class="w3-light-grey w3-container w3-padding-32" style="margin-top:75px;padding-right:58px"><p class="w3-right">Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-opacity">w3.css</a></p></div>
+
+<script>
+// Script to open and close sidebar
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+  document.getElementById("myOverlay").style.display = "block";
+}
+ 
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+  document.getElementById("myOverlay").style.display = "none";
+}
+
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+</script>
+
+</body>
+</html>
