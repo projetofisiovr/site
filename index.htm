@@ -93,14 +93,12 @@ body {font-size:16px;}
       <img src="/w3images/livingroom.jpg" style="width:100%" onclick="onClick(this)" alt="Light, white and tight scandinavian design">
       <img src="/w3images/diningroom.jpg" style="width:100%" onclick="onClick(this)" alt="White walls with designer chairs">
     </div>
-
     <div class="w3-half">
       <img src="/w3images/atrium.jpg" style="width:100%" onclick="onClick(this)" alt="Windows for the atrium">
       <img src="/w3images/bedroom.jpg" style="width:100%" onclick="onClick(this)" alt="Bedroom and office in one space">
       <img src="/w3images/livingroom2.jpg" style="width:100%" onclick="onClick(this)" alt="Scandinavian design">
     </div>
   </div>
-
   <-- Modal for full size images on click-->
   <!--<div id="modal01" class="w3-modal w3-black" style="padding-top:0" onclick="this.style.display='none'">
     <span class="w3-button w3-black w3-xxlarge w3-display-topright">&times;</span>
@@ -175,19 +173,19 @@ body {font-size:16px;}
       <p>A interface do sistema permite que o usuário escolha entre selecionar o
       instrumento a ser utilizado, (re)iniciar a simulação ou obter texto informativo
       sobre o procedimento.</p>
-        <Img src='Figura 2.png'></Img>
+        <Img src='figura2.png'></Img>
       <p>Uma vez iniciada a simulação o modelo 3D do olho é apresentado e o usuário
       pode interagir com ele através do instrumento selecionado. Toda interação do
       instrumento com componentes do modelo resultam em sensação tátil
       equivalente, o que fornece maior realismo à simulação. Contamos com o apoio
       de um cirurgião experiente no desenvolvimento e calibragem do simulador. A
       imagem abaixo mostra detalhes do modelo ocular utilizado.</p>
-      <Img src='Figura 3.png'></Img>
+      <Img src='figura3.png'></Img>
       <p>A cirurgia consiste das etapas de estabelecimento de micro incisões na córnea,
       capsolotomia (abertura do envelope do cristalino), facoemulsificação
       (fragmentação e sucção do cristalino) e instalação da lente artificial no envelope
       vazio.</p>
-      <Img src='Figura 4.png'></Img>
+      <Img src='figura4.png'></Img>
       <p>A implementação de complicações e casos raros se seguirá no desenvolvimento
       do simulador.</p></h4>
   </div>
@@ -230,10 +228,21 @@ body {font-size:16px;}
   <div class="w3-container" id="packages" style="margin-top:75px">
     <h1 class="w3-xxxlarge" style=" color: #120a8f"><b>Vídeos</b></h1>
     <hr style="width:50px;border:5px solid purple" class="w3-round">
-        <p>Some text our prices. Lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure</p>
+      <h2 class="w3-container" style=" color: #4b0082" id="oqera">Realidade Virtual e Saúde</h2>
+      <hr style="width:30px;border:3px solid purple" class="w3-round"> 
+        <p>Vídeo de uma breve explicação do quão importante a Realidade Virtual pode ser associada à áreas da saúde de diversas formas.</p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/OHKqW14Qxvc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <h2 class="w3-container" style=" color: #4b0082" id="oqera">Kinect Fisioterapia Reabilitação : Jintronix Brasil</h2>
+      <hr style="width:30px;border:3px solid purple" class="w3-round"> 
+        <p>Demonstração do software Jintronix Brasil apresentando a inovação para área de fisioterapia e reabilitação.</p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/euVjly6U2OQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <h2 class="w3-container" style=" color: #4b0082" id="oqera">Realidade Virtual Com Aplicativo eHouse - reabilitação motora</h2>
+        <hr style="width:30px;border:3px solid purple" class="w3-round">
+        <p>Aplicativo eHouse leva paciente para ambiente de Realidade Virtual por meio de óculos, transformando sessões de fisioterapia em atividades mais lúdicas.</p> 
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/VMxs-UdtDc0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   </div>
 
-  <div class="w3-row-padding">
+  <!--<div class="w3-row-padding">
     <div class="w3-half w3-margin-bottom">
       <ul class="w3-ul w3-light-grey w3-center">
         <li class="w3-dark-grey w3-xlarge w3-padding-32">Basic</li>
@@ -269,14 +278,14 @@ body {font-size:16px;}
         </li>
       </ul>
     </div>
-  </div>
+  </div> -->
   
   <!-- Contact -->
   <div class="w3-container" id="contact" style="margin-top:75px">
     <h1 class="w3-xxxlarge" style=" color: #120a8f"><b>Demonstração</b></h1>
     <hr style="width:50px;border:5px solid purple" class="w3-round">
-    <p>Do you want us to style your home? Fill out the form and fill me in with the details :) We love meeting new people!</p>
-    <form action="/action_page.php" target="_blank">
+    <p></p>
+   <!-- <form action="/action_page.php" target="_blank">
       <div class="w3-section">
         <label>Name</label>
         <input class="w3-input w3-border" type="text" name="Name" required>
@@ -291,7 +300,7 @@ body {font-size:16px;}
       </div>
       <button type="submit" class="w3-button w3-block w3-padding-large w3-red w3-margin-bottom">Send Message</button>
     </form>  
-  </div>
+  </div> -->
 
 <!-- End page content -->
 </div>
@@ -310,7 +319,6 @@ function w3_close() {
   document.getElementById("mySidebar").style.display = "none";
   document.getElementById("myOverlay").style.display = "none";
 }
-
 // Modal Image Gallery
 function onClick(element) {
   document.getElementById("img01").src = element.src;
